@@ -1,0 +1,192 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.navBar {
+    background-color: pink;
+    height: 70px;
+    justify-content: center;
+}
+
+#navbarNavAltMarkup {
+    justify-content: center;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron {
+    width: 30%;
+    margin-top: 40px;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.profilePic {
+   padding-left: 15px;
+   padding-top: 60px;
+}
+
+.img-fluid {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logoLinks {
+    display: flex;
+    flex-direction: flex-start;
+    width: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    color: black:
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.h2 {
+    font-size: 25px;
+    color: black:
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-size: 15px;
+    color: black:
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hireMeButton {
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.resumeButton {
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+.caseStudies{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:#dddddd;
+    height: 1450px;
+
+}
+
+.secondaryNav {
+    padding-top: 50px;
+}
+
+.cardSection {
+    margin: 50px;
+}
+
+
+
+.bottomCards {
+    margin-top: 50px;
+}
+
+.aboutContent{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutSection {
+    padding-top: 50px;
+    margin: 50px;
+}
+
+.aboutText {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    background-color: white;
+    size: 50px 50 px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    height: 60%;
+}
+
+.text {
+    justify-content: center;
+    text-align: left;
+    top: 8px;
+    left: 16px;
+    color: black;
+}
+.aboutTextcontent {
+    margin: 50px;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.aboutTextcontent h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.text p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.letsconnect {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: black:
+}
+
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    color: black:
+}
+
+.DOI {
+    padding-top: 22px;
+}
