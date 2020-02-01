@@ -1,26 +1,18 @@
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+
+/* not real code*/
+.navBar {
+    background-color:pink;
+    height: 70px;
+    justify-content: center;
+} /* not real code idk why */
 
 .navBar {
-    background-color: pink;
+    background-color:pink;
     height: 70px;
     justify-content: center;
 }
@@ -56,8 +48,12 @@
 
 .logoLinks {
     display: flex;
-    flex-direction: flex-start;
-    width: 50px;
+    flex-direction: space-between;
+    width: 200px;
+}
+
+.imageLinksheader {
+    padding-right: 10px;
 }
 
 h1 {
@@ -135,13 +131,14 @@ h4 {
     position: absolute;
     top: 180px;
     left: 100px;
-    background-color: white;
+    background-color: rgba(255,255,255,0.8);
     size: 50px 50 px;
     color: black;
     padding-left: 20px;
     padding-right: 20px;
     width: 50%;
     height: 60%;
+    background-size: contain;
 }
 
 .text {
@@ -188,5 +185,9 @@ p {
 }
 
 .DOI {
-    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.Clique {
+    padding-bottom: 22px;
 }
