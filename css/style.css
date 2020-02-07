@@ -1,15 +1,3 @@
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px)
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px)
-
-/* not real code*/
-.navBar {
-    background-color:pink;
-    height: 70px;
-    justify-content: center;
-} /* not real code idk why */
 
 .navBar {
     background-color:pink;
@@ -33,6 +21,12 @@
     text-align: left;
     background-color: white;
     font-family: 'Raleway', sans-serif;
+}
+.picContainer {
+    background-image: url(../Images/IMG_8561_Pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
 }
 
 .profilePic {
@@ -110,7 +104,7 @@ s
     margin: 50px;
 }
 
-.bottomCards {
+.bottomCards {o
     margin-top: 50px;
 }
 
@@ -126,17 +120,14 @@ s
 }
 
 .aboutText {
-    position: absolute;
-    top: 180px;
-    left: 100px;
     background-color: rgba(255,255,255,0.8);
     size: 50px 50 px;
     color: black;
     padding-left: 20px;
     padding-right: 20px;
     width: 50%;
-    height: 60%;
-    background-size: contain;
+    padding: 35px;
+    min-width: 420px;
 }
 
 .text {
@@ -147,7 +138,6 @@ s
     color: black;
 }
 .aboutTextcontent {
-    margin: 50px;
     justify-content: center;
     font-family: 'Raleway', sans-serif;
 }
@@ -188,4 +178,14 @@ p {
 
 .Clique {
     padding-bottom: 22px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px){
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px){
+
 }
